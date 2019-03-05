@@ -1,2 +1,2 @@
 # Python_libs
-python libs contains small functions for scientific analysis, plotting, et al
+Python libs contains small python functions for scientific analysis, plotting, et al. It is developed by Nan CHU under the MIT open source lincense. Glad to share these knowledge!
