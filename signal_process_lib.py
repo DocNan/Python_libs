@@ -10,7 +10,7 @@ import pylab
 
 pi = numpy.pi
 
-def SVD_analysis(sig_matrix=0, i_test=0, i_plot=1, i_check=[0,1,2,3,4,5]):
+def SVD_analysis(sig_matrix=0, t=0, i_test=0, i_plot=1, i_check=[0,1,2,3,4,5]):
   '''
   use SVD to get the toroidal/poloidal mode number of MHD instabilities
   i_check is the order of singular values to be plot and check
