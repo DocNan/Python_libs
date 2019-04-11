@@ -8,5 +8,15 @@ Calculate standard error and compare it with standard deviation.
 
 ![set_subplot_pos example](/data/SE.png)
 
+# signal_process_lib
+signal_process_lib is for the experimental data analysis with various methods.
+
+## SVD_analysis()
+Calculate the major modes structure and frequency.
+
+![1st order singular value related mode structure](/data/test_svd_n3_1st.png)
+ 	
+
+
 # Reference
 [1] http://berkeleysciencereview.com/errorbars-anyway/
