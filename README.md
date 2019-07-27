@@ -25,4 +25,4 @@ gfile in eqdsk format is very commen standard data file from equilibirum codes l
 # Reference
 [1] http://berkeleysciencereview.com/errorbars-anyway/
 
-[2] 
+[2] Lutjens H, Bondeson A, Sauter O, et al. The CHEASE code for toroidal MHD equilibria[J]. Computer Physics Communications, 1996, 97(3): 219-260.
