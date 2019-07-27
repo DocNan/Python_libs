@@ -205,7 +205,7 @@ def write_eqdsk(newfile=0, gdata=0, i_test=0, i_plot=0):
     write_eqdsk(newfile=0, gdata=0, i_test=0, i_plot=0)
     write eqdsk format tokamak equilibrium file based on the gdata dictionary 
     data file information.
-    chunan@mail.ustc.edu.cn
+    chunan@mail.ustc.edu.cn 2019.07.27, Hefei, China.
     '''
     if i_test == 1: 
         newfile = './data/gfiletest.output'
