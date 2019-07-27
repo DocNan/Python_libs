@@ -31,9 +31,7 @@ def read_eqdsk(gfile=0, i_plot=0, i_test=0):
     chunan@mail.ustc.edu.cn 2019.07.25, Hefei, China.
     '''
     if i_test == 1:
-        # gfile = '../test_data/gfile/g065010.003933'
-        # gfile = '../test_data/gfile/g075590.04843'
-        gfile = './data_test/circle15.eqdsk'
+        gfile = './data/circle15.eqdsk'
     fid = open(gfile, 'r')
     g_string = fid.read()
 
@@ -210,7 +208,7 @@ def write_eqdsk(newfile=0, gdata=0, i_test=0, i_plot=0):
     chunan@mail.ustc.edu.cn
     '''
     if i_test == 1: 
-        newfile = './data_test/gfiletest.output'
+        newfile = './data/gfiletest.output'
         gdata = read_eqdsk(i_test=1, i_plot=0)
         gdata['title'] = '  TEST    00/00/0000           '
 
@@ -328,7 +326,7 @@ def write_eqdsk(newfile=0, gdata=0, i_test=0, i_plot=0):
 
 
 pylab.close('all')
-# read_eqdsk(i_plot=1, i_test=1)
+read_eqdsk(i_plot=1, i_test=1)
 write_eqdsk(i_test=1, i_plot=1)
 
 
